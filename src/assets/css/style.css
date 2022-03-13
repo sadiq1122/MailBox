@@ -1,0 +1,149 @@
+.header {
+  display: flex;
+  justify-content: right;
+  height: 60px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.notify {
+  position: relative;
+  top: -15px;
+  right: -30px;
+  background: yellow;
+  width: 20px;
+  display: flex;
+  height: 20px;
+  border-radius: 5px;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.label-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.label-item {
+  margin-top: 10px;
+  font-size: 14px;
+  border: 1px solid gray;
+  padding: 3px;
+  margin-right: 10px;
+}
+
+.control-panel {
+  padding-left: 40px;
+  padding-top: 40px;
+  background-color: rgb(247, 245, 245);
+}
+
+.compose-btn {
+  width: 90%;
+  border-radius: 4px;
+  background-color: rgb(5, 158, 138);
+  color: white;
+  padding: 3px;
+  height: 40px;
+  margin-bottom: 30px;
+  border-color: rgb(5, 158, 138);
+}
+
+h6 {
+  color: rgb(110, 108, 108);
+}
+
+.category-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.folder-list-item {
+  border-bottom: 0.2px solid rgb(218, 218, 218);
+  width: 90%;
+  padding-top: 3px;
+}
+
+.category-list-item {
+  padding-top: 3px;
+}
+
+.page-controls,
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-bottom: 14px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.page-btns {
+  border: 0.4px solid gray;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.mail-container-header {
+  margin-top: 40px;
+}
+
+.search-btn {
+  border: none;
+  background-color: rgb(5, 158, 138);
+  height: 32px;
+}
+
+.mail-item {
+  border-bottom: 0.2px solid gray;
+  padding: 10px;
+  align-items: center;
+}
+
+.mail-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 40px;
+  margin-top: auto;
+  vertical-align: middle;
+}
+
+.sender-name {
+  display: inline-block;
+  width: 25%;
+}
+
+.mail-content {
+}
+
+.date {
+  display: block;
+  margin-right: 40px;
+  float: right;
+}
+
+body {
+  background-color: rgb(247, 245, 245);
+}
+.mail-container {
+  margin-top: 40px;
+  background-color: white;
+}
+
+.header-container{
+    background-color: white;
+}
+
+.mail-list {
+    margin-top: 50px;
+    border-top: 0.2px solid gray;
+    height: 100vh;
+}
